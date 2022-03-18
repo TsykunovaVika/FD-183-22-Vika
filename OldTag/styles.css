@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(212, 221, 235);
+    font-size: 16px;
+    font-weight: normal;
+
+}
+h1 {
+    color: darkblue;
+}
+address {
+    color: rgb(129, 175, 190);
+}
