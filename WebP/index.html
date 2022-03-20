@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebP</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="body">
+    <body style="background: rgb(235, 252, 235);">
+
+    <h1>Формат изображения WebP</h1>
+<hr width="500" color="green">
+    <p><a href="https://ru.wikipedia.org/wiki/WebP" target="_blank" style="color: green;"><strong>WebP</strong></a>  — формат сжатия изображений как с потерями, так и без потерь, предложенный компанией Google Inc.Основан на алгоритме сжатия неподвижных изображений (ключевых кадров) из видеокодека VP8. Использует контейнер RIFF. Для работы с данным форматом существует открытое программное обеспечение, в частности, библиотека libvpx и конвертер webpconv.</p> 
+<hr color="green">   
+<h2>Достоинства и недостатки WebP</h2>
+<p><strong>WebP</strong> — крайне полезный формат, ведь он даёт и производительность и возможности. В отличие от других форматов, WebP поддерживает сжатие как с потерями так и без, а также полупрозрачность и анимацию.И даже со всеми этими возможностями, WebP обеспечивает меньший размер чем его конкуренты. В сравнительном исследовании формата было установлено, что изображения в формате WebP, сжатые с потерями, в среднем на 30% меньше, чем в формате JPG, а сжатые без потерь — в среднем на 25% меньше чем в формате PNG.Как и VP8, поддерживает только формат 8-bit YUV 4:2:0, что, при кодировании с потерей качества, может быть причиной потери цвета на изображениях с 1-пиксельными контрастными переходами, например в пиксельной графике и других видах компьютерной графики. Для преодоления этих ограничений была разработана спецификация WebP Lossless, работающая в цветовом пространстве ARGB.</p>
+
+<div class="picture">
+<img src="comparison.png" alt="Сравнение возможностей форматов" title="Сравнение">
+</div>
+<hr color="green">
+<h2>Сравнение WebP c другими форматами</h2>
+<table border="1">
+    <tr>
+       <th></th>
+       <th>PNG</th>
+       <th>JPEG</th>
+       <th>GIF</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td><img src="kubs.png" alt="Kubs" title="Kubs"></td>
+        <td><img src="leaves.jpg" alt="leaves" title="leaves"></td>
+        <td><img src="gradient.gif" alt="gradient" title="gradient"></td>
+
+    </tr>
+    <tr>
+        <td><strong>WebP</strong></td>
+        <td><img src="kubs.webp" alt="Kubs" title="Kubs"></td>
+        <td><img src="leaves.webp" alt="Leaves" title="Leaves"></td>
+        <td><img src="gradient.webp" alt="gradient" title="gradient"></td>
+    </tr>
+</table>
+</body>
+</div>
+</html>
