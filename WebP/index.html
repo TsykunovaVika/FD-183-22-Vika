@@ -1,53 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebP</title>
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<div class="body">
-    <body style="background: rgb(235, 252, 235);">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebP</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <h1>Формат изображения WebP</h1>
-<hr width="500" color="green">
-    <p><a href="https://ru.wikipedia.org/wiki/WebP" target="_blank" style="color: green;"><strong>WebP</strong></a>  — формат сжатия изображений как с потерями, так и без потерь, предложенный компанией Google Inc.Основан на алгоритме сжатия неподвижных изображений (ключевых кадров) из видеокодека VP8. Использует контейнер RIFF. Для работы с данным форматом существует открытое программное обеспечение, в частности, библиотека libvpx и конвертер webpconv.</p> 
-<hr color="green">   
-<h2>Достоинства и недостатки WebP</h2>
-<p><strong>WebP</strong> — крайне полезный формат, ведь он даёт и производительность и возможности. В отличие от других форматов, WebP поддерживает сжатие как с потерями так и без, а также полупрозрачность и анимацию.И даже со всеми этими возможностями, WebP обеспечивает меньший размер чем его конкуренты. В сравнительном исследовании формата было установлено, что изображения в формате WebP, сжатые с потерями, в среднем на 30% меньше, чем в формате JPG, а сжатые без потерь — в среднем на 25% меньше чем в формате PNG.Как и VP8, поддерживает только формат 8-bit YUV 4:2:0, что, при кодировании с потерей качества, может быть причиной потери цвета на изображениях с 1-пиксельными контрастными переходами, например в пиксельной графике и других видах компьютерной графики. Для преодоления этих ограничений была разработана спецификация WebP Lossless, работающая в цветовом пространстве ARGB.</p>
+    <div class="body">
+        
+        <body style="background: rgb(235, 252, 235);">
 
-<div class="picture">
-<img src="comparison.png" alt="Сравнение возможностей форматов" title="Сравнение">
-</div>
-<hr color="green">
-<h2>Сравнение WebP c другими форматами</h2>
+        <h1>Формат изображения WebP</h1>
+    <hr width="500" color="green">
+        <p><a href="https://ru.wikipedia.org/wiki/WebP" target="_blank" style="color: green;"><strong>WebP</strong></a>  — формат сжатия изображений как с потерями, так и без потерь, предложенный компанией Google Inc.Основан на алгоритме сжатия неподвижных изображений (ключевых кадров) из видеокодека VP8. Использует контейнер RIFF. Для работы с данным форматом существует открытое программное обеспечение, в частности, библиотека libvpx и конвертер webpconv.</p> 
+    <hr color="green">   
+    <h2>Достоинства и недостатки WebP</h2>
+    <p><strong>WebP</strong> — крайне полезный формат, ведь он даёт и производительность и возможности. В отличие от других форматов, WebP поддерживает сжатие как с потерями так и без, а также полупрозрачность и анимацию.И даже со всеми этими возможностями, WebP обеспечивает меньший размер чем его конкуренты. В сравнительном исследовании формата было установлено, что изображения в формате WebP, сжатые с потерями, в среднем на 30% меньше, чем в формате JPG, а сжатые без потерь — в среднем на 25% меньше чем в формате PNG.Как и VP8, поддерживает только формат 8-bit YUV 4:2:0, что, при кодировании с потерей качества, может быть причиной потери цвета на изображениях с 1-пиксельными контрастными переходами, например в пиксельной графике и других видах компьютерной графики. Для преодоления этих ограничений была разработана спецификация WebP Lossless, работающая в цветовом пространстве ARGB.</p>
+    <img src="comparison.png" alt="Сравнение возможностей форматов" title="Сравнение">
 
-<table border="1" width="850" height="500" align="center">
-    <tr>
-       <th></th>
-       <th>PNG</th>
-       <th>JPEG</th>
-       <th>GIF</th>
-    </tr>
-    <tr>
-        <td></td>
-        <td align="center"><img src="kubs.png" alt="Kubs" title="Kubs"></td>
-        <td align="center"><img src="leaves.jpg" alt="leaves" title="leaves"></td>
-        <td align="center"><img src="gradient.gif" alt="gradient" title="gradient"></td>
+    <hr color="green">
+    <h2>Сравнение WebP c другими форматами</h2>
 
-    </tr>
-    <tr>
-        <td><strong>WebP</strong></td>
-        <td align="center"><img src="kubs.webp" alt="Kubs" title="Kubs"></td>
-        <td align="center"><img src="leaves.webp" alt="Leaves" title="Leaves"></td>
-        <td align="center"><img src="gradient.webp" alt="gradient" title="gradient"></td>
-    </tr>
-    </table>
+    <table border="1" width="850" height="500" align="center">
+        <tr>
+        <th></th>
+        <th>PNG</th>
+        <th>JPEG</th>
+        <th>GIF</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center"><img src="kubs.png" alt="Kubs" title="Kubs"></td>
+            <td align="center"><img src="leaves.jpg" alt="leaves" title="leaves"></td>
+            <td align="center"><img src="gradient.gif" alt="gradient" title="gradient"></td>
 
-
-</table>
-</body>
-</div>
-</html>
+        </tr>
+        <tr>
+            <td><strong>WebP</strong></td>
+            <td align="center"><img src="kubs.webp" alt="Kubs" title="Kubs"></td>
+            <td align="center"><img src="leaves.webp" alt="Leaves" title="Leaves"></td>
+            <td align="center"><img src="gradient.webp" alt="gradient" title="gradient"></td>
+        </tr>
+        <tr>
+            <td ><strong>Сравнение<strong></td>
+            <td>
+                <ul>
+                <li>значительных изменений нет;</li>
+                <li>PNG передал контраст изображения чуть лучше;</li>
+                <li>вес изображения WebP в разы меньше;</li>
+            </ul>
+        </td>
+            <td>
+                <ul>
+                <li>значитльных изменений нет;</li>
+                <li>в JPG более четкие края фрагментов;</li>
+                <li>вес изображения WebP в разы меньше;</li>
+            </ul>
+        </td>
+            <td>
+                <ul>
+                <li>WebP передал изображение более насыщенно;</li>
+                <li>вес изображения WebP в разы меньше.</li>
+                </ul>
+            </td>
+        </tr>
+        </table>
+        <hr color="green">
+    <h2>Браузеры, которые поддерживают формат изображений WebP</h2>
+    <p>В настоящее время просмотр изображений в формате WebP поддерживается браузерами:
+        <ul>
+            <li>Google Chrome (начиная с 9 версии);</li>
+            <li>Opera (начиная с версии 11.10);</li>
+            <li>Firefox (с версии 65).</li>
+        </ul>
+        <p>Android поддерживает чтение и запись WebP изображений начиная с версии.В октябре 2018 поддержка формата была добавлена в Microsoft Edge. Также в октябре 2018 библиотека libwebp была принята в кодовую базу Firefox.</p>
+    </body>
+    </div>
+    </html>
