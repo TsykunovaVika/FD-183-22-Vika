@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
 
+
 .box-model > div {
     background: rgb(253, 250, 242);
     height: 1350px;
@@ -25,7 +26,7 @@ h2 {
 
 p{
     text-align: center;
-    font-family:'Jura', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 h1, h2 {
