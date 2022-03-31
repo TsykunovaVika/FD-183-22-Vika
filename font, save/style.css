@@ -5,7 +5,7 @@ h1{
     font-size: 60px; 
 }
 body{
-    background-color: rgba(138, 136, 136, 0.432);
+    background-color: rgba(218, 216, 216, 0.432);
     align-self: center;  
 }
 
@@ -52,3 +52,6 @@ p {
 ul li{
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;}
+    address{
+        text-align: right;
+    }
