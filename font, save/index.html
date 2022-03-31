@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tsykunova</title>
+</head>
+
+<body> 
+    <div class="container">
+    <div class="card bg-yellow" >
+    <h1>
+        Почему HTML считает, что «BruceWillis» и «CANDY»  — это цветa?
+    </h1>
+</div>
+<div class="card bg-green">
+<h2>
+    Для начала разберемся, какие же цвета получаются при использовании этих значений?
+</h2>
+<p>
+    
+    
+     <table>
+         <td style="text-indent: 20px;">При использовании значения 'font color="#BruceWillis"'..'/font' мы получим цвет &mdash;</td>
+         <td><img src="Screenshot_4.png" alt="BruceWillis" title="BruceWillis"></td> 
+         <td style="text-indent: 20px;">При использовании значения 'font color="#CANDY"'..'/font' мы получим цвет &mdash;</td>
+         <td><img src="Screenshot_1.png" alt="CANDY" title="CANDY"></td>
+         
+     </table>  
+</p>
+</div>
+<div class="card bg-red">
+<h2>Почему же так получается?</h2>
+<p style="text-indent: 20px;">Оказывается, так заведено еще со времен популярности Netscape:
+пропускаемые цифры распознаются как 0[...]. Некорректные символы распознаются как 0. Так что, зачения:
+<ul> 
+    <li>#F0F0F0,</li>
+    <li>F0F0F0,</li>
+    <li>F0F0F,</li>
+    <li>FxFxFx &mdash; одно и то же.</li>
+</ul>
+</p>
+</div>
+     
+
+
+</div>
+</body>
+
+
+</html>

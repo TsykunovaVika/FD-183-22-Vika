@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cuprum:wght@400;500&family=Dela+Gothic+One&family=Jura:wght@300;400;600&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px; 
+}
+body{
+    background-color: rgba(247, 241, 241, 0.637);
+    align-self: center;  
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px; 
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    margin-bottom: 20px;
+}
+
+.bg-yellow{
+    background:#fff9dc ;
+}
+
+.bg-green{
+    background: #e5ffe7 ;
+}
+
+.bg-red{
+    background: #ffe5e5 ;
+}
+
+.card{
+    padding: 15px 20px;
+}
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+table td{
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+}
+p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+}
+
+
+/* для .card 
+margin-bottom: 20px;
+border-radius: 20px; */
