@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+body{
+    font-family:'Podkova', serif;
+    background: #F5F6DC;
+}
+h1{
+    text-align: center;
+}
+
+
+.box div{
+    background: #8de3ff;
+    height: 230px;
+    width: 50%;
+    float:left;
+    border: 1px solid ;
+    box-sizing: border-box;
+    
+}
+
+.info{
+    text-indent: 20px;
+    font-size: 18px;
+    background: #50C878;}
+a:hover{
+    color: #ff0000;}
+.end{
+    background: #c26969;
+    text-indent: 20px;
+    font-size: 18px;
+}
+ 
