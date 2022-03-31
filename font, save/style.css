@@ -5,7 +5,7 @@ h1{
     font-size: 60px; 
 }
 body{
-    background-color: rgba(247, 241, 241, 0.637);
+    background-color: rgba(138, 136, 136, 0.432);
     align-self: center;  
 }
 
@@ -20,19 +20,21 @@ h2{
 }
 
 .bg-yellow{
-    background:#fff9dc ;
+    background:#fff4d1 ;
 }
 
 .bg-green{
-    background: #e5ffe7 ;
+    background: #deffe0 ;
 }
 
 .bg-red{
-    background: #ffe5e5 ;
+    background: #ffe3e3 ;
 }
 
 .card{
     padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
 }
 p{
     font-family: 'Amatic SC', cursive;
@@ -47,8 +49,6 @@ p {
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
 }
-
-
-/* для .card 
-margin-bottom: 20px;
-border-radius: 20px; */
+ul li{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;}
