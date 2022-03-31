@@ -1,11 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500&family=Dela+Gothic+One&family=Permanent+Marker&family=Press+Start+2P&display=swap');
-body{
-    font-family:'Cuprum', sans-serif; ; 
+@import url('https://fonts.googleapis.com/css2?family=Podkova&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
+.box-model > div {
+    background: rgb(253, 250, 242);
+    height: 1350px;
+    width: 50%;
+    float: left;
+    align-content: center;
+    box-sizing:border-box;
+    border: 1px solid darkgrey;
 }
+
+body{ 
+    max-width: 50%;
+}
+
 h1 {
-    font-size: 20px;
+    text-align: center;
 }
-h2{
-    font-size: 20px;
-    text-indent: 10px;
+
+h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family:'Jura', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
 }
