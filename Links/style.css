@@ -1,0 +1,28 @@
+.links a{
+    margin-right: 10px;
+    border-right: solid 3px red;
+}
+
+a:hover{
+    color: red;
+}
+a{
+    color: green;
+}
+span{
+    padding-right: 30px;
+}
+
+
+td{
+    padding-right:20px;
+}
+
+td::after{
+    content:"";
+    background: red;
+    width: 2px;
+    height: 25px;
+    float: right;
+    margin-left: 20px;
+}
