@@ -1,0 +1,57 @@
+table.CHESS
+  {
+    border-collapse: collapse;
+  }
+
+  table.CHESS td
+  {
+    width: 50px;
+    height: 50px;
+  }
+
+tr:nth-child(odd) td:nth-child(odd){
+  background-color:black;
+}
+
+tr:nth-child(even) td:nth-child(even){
+  background-color:black;
+}
+#first td{
+  background-color: green;
+}
+#last td{
+  background-color: green;
+}
+
+td:first-child {
+  background-color: green;
+}
+
+td:last-child{
+  background-color: green;
+}
+#three{
+background-color: green;
+}
+#five{
+  background-color: green;
+}
+#seven{
+  background-color: green;
+}
+#nine{
+  background-color: green;
+}
+#second{
+  background-color: green;
+}
+#four{
+  background-color: green;
+}
+#six{
+  background-color: green;
+}
+#eight{
+  background-color: green;
+}
+
