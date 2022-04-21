@@ -1,0 +1,12 @@
+
+.container > span:hover::before {
+    content: url('star1.png');
+    position: absolute;
+}
+
+.container > span:hover:before,
+.container > span:hover ~ span:before {
+   content: url('star1.png');
+   position: absolute;
+}
+
