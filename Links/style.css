@@ -26,3 +26,13 @@ td::after{
     float: right;
     margin-left: 20px;
 }
+
+
+.third a:nth-child(n+2)::before{
+    content: '|';
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+
+}
