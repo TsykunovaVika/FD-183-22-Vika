@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тег <picture></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="head"><h1>Тег < picture > </h1></div>
+
+<div class="h2"><h2>Определение и использование</h2></div>
+<div class="info">
+<div class="info1"><p>Тег <span>< picture ></span> позволяет веб-разработчикам больше гибкости в определении ресурсов изображения.
+    Наиболее распространенным использованием элемента <picture> будет направление арт в адаптивных проектах. Вместо одного изображения, которое масштабируется вверх или вниз в зависимости от ширины видового экрана, несколько изображений могут быть разработаны для более красиво заполнить окно просмотра браузера.</p>
+    </div>
+
+
+    <div class="info3">
+        <p>Элемент <span> < source > </span> имеет следующие атрибуты:
+        <ul>
+        <li>srcset (required) - Определяет URL-адрес изображения для отображения</li>
+        <li>media - принимает любой допустимый запрос носителя, который обычно определяется в CSS</li>
+        <li>sizes - определяет один дескриптор ширины, один запрос носителя с дескриптором ширины или список с разделителями-запятыми запросов мультимедиа с дескриптором ширины</li>
+        <li>type - d Определяет тип MIME</li>
+    </ul></p>
+    </div>
+
+
+    <div class="info2">
+    Элемент <span>< picture ></span> содержит два разных тега: 
+    
+    <ul>
+        <li> <span> < source > </span> </li>
+        <li><span>< img ></span></li>
+    </ul>
+</div>
+
+
+</div>
+<div style="clear: both;"></div>
+   
+<div class="footer"> <h2>Поддержка браузера и пример</h2></div>
+<div class="example">
+<table>
+    <tbody>
+       <tr>
+            <th>Элемент</th>
+            <th><picture>
+                <source srcset="google_big.png" media="(min-width: 1000px)">
+                <img src="google_small.png" alt="google_small">
+               </picture></th>
+               <th><picture>
+                <source srcset="explorer_big.png" media="(min-width: 1000px)">
+                <img src="explorer_small.png" alt="explorer_small">
+               </picture></th>
+               <th><picture>
+                <source srcset="firefox_big.jpg" media="(min-width: 1000px)">
+                <img src="firefox_small.png" alt="firefox_small">
+               </picture></th>
+       </tr>
+
+       <tr>
+        <th> < picture > </th>
+        <td>38.0</td>
+        <td>13.0</td>
+        <td>38.0</td>
+   </tr>
+
+    </tbody>
+   </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300;700&display=swap');
+
+
+*{
+    font-size: 'Bellota', cursive;
+}
+span{
+    font-weight: bold;
+}
+
+.head h1{
+    background-color: #800080;
+    border-radius: 50px;
+    width: 300px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Bellota', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.h2 h2{
+    background-color: #808080;
+    border-radius: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 50px;
+    font-family: 'Bellota', cursive;
+    font-weight: regular;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.info{
+
+    width: 1300px;
+    margin: auto ;
+    margin-top: 50px;
+
+}
+
+.info div{
+
+    display: inline-block;
+    width: 300px;
+}
+
+.info1{
+    font-family: 'Bellota', cursive;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 50px;
+    padding: 20px;
+    background: #FF8000;
+    padding-left: 40px;
+    padding-right: 40px;
+    float:left;
+}
+
+.info2{
+    font-family: 'Bellota', cursive;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 50px;
+    padding: 20px;
+    background: #FFC0CB;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: right;
+}
+
+.info3{
+    font-family: 'Bellota', cursive;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 50px;
+    padding: 20px;
+    background: #CC99FE;
+    padding-left: 40px;
+    padding-right: 60px;
+    float: right;
+    margin-left: 70px;
+}
+
+.footer h2
+{
+    
+    background-color: #808000;
+    border-radius: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 50px;
+    font-family: 'Bellota', cursive;
+    font-weight: regular;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+table{
+    margin: 0 auto;
+    border: solid 1px;
+    border-color: grey;
+    border-collapse: collapse;
+    height: 300px;
+    margin-top: 50px;
+    font-family:'Bellota', cursive; ;
+    
+}
+
+th {
+    border: 1px solid grey;
+ }
+
+ td {
+    border: 1px solid grey;
+    padding-left: 130px;
+ }
+
+ th img{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
