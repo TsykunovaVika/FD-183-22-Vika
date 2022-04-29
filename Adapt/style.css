@@ -1,0 +1,30 @@
+@media all and (max-width:1024px) {
+    img{
+        float:none;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:768px) {
+   .top p{
+        background: green;
+    }
+}
+
+
+@media all and (max-width:768px) {
+    .top p{
+         background: green;
+     }
+ }
+
+
+ @media all and (max-width:600px) {
+     .all .list li{
+         border-radius: 50px;
+         padding-top: 30px;
+     }
+ }
+
+
+
