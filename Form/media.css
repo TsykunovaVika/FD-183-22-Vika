@@ -1,0 +1,15 @@
+@media all and (max-width:600px){
+.one,
+.one-select{
+    float:none;
+}
+.publication {
+    width: 200px;
+}
+.two-input{
+    float: none;
+    margin-left: -200px;
+    max-width: 165px;
+}
+}
+

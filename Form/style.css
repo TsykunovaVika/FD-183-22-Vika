@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one,
+.one-select,
+.one-publication {
+    width: 200px;
+    float: left;
+
+}
+
+.one-input,
+.select2 {
+    margin-left: 200px
+}
+
+.one-input input {
+    display: block;
+    width: 100%;
+    height: 20px;
+}
+
+
+
+.radio-publication label{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.anketa1 textarea {
+    height: 40px;
+    width: 100%;
+}

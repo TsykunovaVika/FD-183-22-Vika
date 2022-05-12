@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+
+    <div class="anketa1">
+
+        <form action="http://fe.it-academy.by/TestForm.php">
+             Для публикации вашей статьи заполните, пожалуйста, следующую форму:<br><br>
+
+             <div class="one-titile">
+                  <div class="one">
+                       Название статьи:
+                  </div>
+                  <div class="one-input">
+                       <div class="clearfix">
+                            <input class="two-input" type="text" name="title">
+                       </div>
+                  </div>
+             </div>
+
+             <div class="select">
+                  <div class="one-select">
+                       Рубрика:
+                  </div>
+                  <div class="select-2">
+                       <div class="clearfix">
+                            <select class="select">
+                                 <option value="programming">программирование</option>
+                                 <option value="computer technology">компьютерная техника</option>
+                                 <option value="graphics and design">графика и дизайн</option>
+                            </select>
+                       </div>
+                  </div>
+             </div>
+
+             <div class="publication">
+                  <div class="one-publication">
+                       Публикация:
+                  </div>
+                  <div class="radio-publication">
+                       <div class="clearfix">
+                            <label><input type="radio" name="radio" value="сайт"> на сайте</label>
+                            <label><input type="radio" name="radio" value="журнал"> в журнале</label>
+                            <label><input type="radio" name="radio" value="сайт и журнал"> на сайте и в журнале</label>
+                       </div>
+                  </div>
+             </div>
+
+             <label class="coments">
+                  Разрешить комментарии: <input class="accept" type="checkbox" checked value="yes">
+             </label>
+             <label><br>
+                  Текст статьи:<br>
+                  <textarea name="coments"></textarea>
+             </label><br>
+             <input type="submit" value="Опубликовать">
+        </form>
+
+   </div>
+
+
+
+</body>
+
+</html>
