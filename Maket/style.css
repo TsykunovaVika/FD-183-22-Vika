@@ -52,7 +52,7 @@ ul{
         color: white;
     }
     .container a:active{
-        color: #998431;
+        color: #ffcc00;
     }
 
 .wine{
@@ -129,3 +129,259 @@ color: #FFFFFF;
     height: 1038px;
     margin: 0 auto;
 }
+
+.info1{
+    width: 445px;
+
+}
+.info .new_p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.info h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #282828;
+
+}
+.lorem-p{
+    
+
+width: 445px;
+height: 84px;
+left: 405px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #282828;
+margin-top: 30px;
+margin-bottom:30px ;
+}
+
+TABLE {
+    border-collapse: collapse;
+    border: 2px solid #E6E3C4;
+   }
+   TD, TH {
+    padding: 3px; 
+    border: 1px solid #282828; 
+   }
+
+   table p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+   }
+   table h6{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+    padding-left: 30px;
+    padding-top:0px;
+   }
+
+   .year{
+    padding: 26PX 24PX;
+   }
+   .red{
+       padding-left: 30px;
+   }
+
+   .discover {
+    background-color: #998431;
+    padding: 15px 30px;
+    width: 274px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-decoration: none;
+   }
+   .discover a{
+       text-decoration: none;
+       color: #FFFFFF;
+       
+   }
+
+   .info1 {
+       float: left;
+   }
+
+   .info2{
+       position: relative;
+       bottom: 1835px;
+       left: -400px;
+   }
+
+.zero-foto, .first-foto, .second-foto{
+    position: absolute;
+}
+.zero-foto{
+    left: 970px;
+    top: 1897px;
+}
+
+.first-foto{
+    left: 970px;
+    top: 2440px;
+}
+.second-foto{
+    left: 1256px;
+    top: 2440px;
+}
+
+.registration{
+    background: #282828;
+}
+
+.container4{
+    width:1110px;
+    margin: 0 auto;
+    height: 767px;
+    position: relative;
+}
+
+.form{
+    width: 1110px;
+    background-image: url('border2.png');
+    position: absolute;
+    top: 129px;
+    bottom: 100px;
+}
+
+.form img{
+    position: absolute;
+}
+
+.barrel{
+    top: -60px;
+    right: -57px;
+}
+
+
+.grape{
+    left: -23px;
+    top: -70px;
+}
+
+.main{
+    left: 326px;
+    top: -36px;
+}
+
+.form p{
+position: absolute;
+top:105px;
+left: 286px;
+width: 539px;
+height: 72px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 80px;
+}
+.line10{
+    top:65px;
+    left:496px;
+}
+
+.form1 input{
+    position: absolute;
+    top:260px;
+    left: 286px;
+    width: 254px;
+    height: 30px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: none;
+    
+    
+}
+.form2 input{
+    position: absolute;
+    top:260px;
+    left:571px;
+    width: 254px;
+    height: 30px;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    background: none;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+.form3 input{
+    position: absolute;
+    top:330px;
+    left: 286px;
+    width: 254px;
+    height: 30px;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    background: none;
+}
+input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.form4 input{
+    position: absolute;
+    top:420px;
+    left: 286px;
+    width: 540px;
+    height: 30px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    background: none;
+    padding-top: 15PX;
+    padding-bottom: 30PX;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    }
+.form4 input:active{
+    text-decoration: underline;
+}
+
+
+
+

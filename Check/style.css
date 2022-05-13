@@ -1,0 +1,45 @@
+
+.check1{
+    display: flex;
+    align-items: center;
+
+}
+.check1 label{
+    padding-left:20px ;
+    font-family: 'Macondo', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.check1 input{
+
+    -webkit-appearance: none;
+    width: 50px;
+    height:50px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.check1 input:after{
+    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    display: none;
+}
+
+.check1 input:hover{
+    background-color: rgb(208, 160, 250);
+}
+
+.check1 input:checked{
+    background-color: rgb(146, 74, 213);
+}
+.check1 input:checked::after{
+    display: block;
+}
