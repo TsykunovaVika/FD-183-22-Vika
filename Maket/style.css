@@ -13,6 +13,7 @@
     width: 1110px;
     height:900px;
     margin: 0 auto;
+    position: relative;
 }
 
 .container span {
@@ -38,7 +39,7 @@ ul{
         padding-right: 100px;
         color: white;
         float: right;
-        padding-top: 11px;
+        padding-top: 14px;
         padding-bottom: 5px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -55,6 +56,10 @@ ul{
         color: #ffcc00;
     }
 
+
+    .container img{
+        position: absolute;
+    }
 .wine{
     margin: 598px auto;
     margin-left: 340px;
