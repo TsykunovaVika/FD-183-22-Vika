@@ -43,3 +43,32 @@
 .check1 input:checked::after{
     display: block;
 }
+
+.check2{
+    margin-top: 20PX;
+    align-items: center;
+}
+
+.check2 input{
+    display: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+.check2 label{
+    font-family: 'Macondo', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.check2 label::before{
+    content: url('Screenshot_2.png');
+    padding-right: 20px;
+}
+
+.check2 input:checked + label::before{
+    content: url('Screenshot_1.png');
+}
+
+
+
