@@ -89,7 +89,10 @@ a {
 .info{
     background: url('img/background.png');
     height: 1499px;
+    left:200px;
+
 }
+
 
 .footer{
     background: #F8F8F8;
@@ -129,5 +132,223 @@ a {
 
 .list2 a::after{
     content: url('img/Polygon.png');
-   padding-right: 13px;
+    padding-right: 13px;
 }
+
+.gallery{
+    display: flex;
+    position: relative;
+    bottom: -115px;
+    justify-content: flex-end;
+    margin-right: -188px;
+}
+
+.gallery > div{
+    flex-basis: 440px;
+    margin-right: 144px;
+
+}
+
+.gallery img{
+    border: 2px solid #1F2326;
+    background: #1F2326;
+    border-top-left-radius: 15px;
+}
+
+#four4{
+    background: #FFFFFF;
+}
+
+.cube{
+    position: absolute;
+    left: 1085px;
+    bottom: 519px;
+}
+
+.blocks div{
+    height: 110px;
+    background: #1F2326;
+}
+
+.blocks{
+    display: flex;
+    position: relative;
+    top: 41px;
+    left: 532px;
+
+}
+
+.blocks > div {
+    flex-basis: 440px;
+    margin-right: 144px;
+    border: 2px solid #F8F8F8;
+}
+
+
+
+.mini-gallery1 img{
+    float:left;
+    padding-top: 19px;
+    padding-right: 5px;
+    padding-left: 42px;
+}
+
+.mini-gallery2 img{
+    float:left;
+    padding-top: 26px;
+    padding-right: 5px;
+    padding-left: 42px;
+}
+
+.mini-gallery3 img{
+    float:left;
+    padding-top: 26px;
+    padding-left: 38px;
+}
+
+#mini-gallery4{
+    background: #FFFFFF;
+    border: 2px solid #1F2326;
+}
+
+#mini-gallery4 img{
+    float:left;
+    padding-top: 32px;
+    padding-left: 43px;
+}
+
+
+
+.allimg img{
+    position: absolute;
+}
+
+.agents{
+    top: 250px;
+    left: 232px;
+}
+
+.phoenix{
+    top: 280px;
+    left: 468px;
+}
+
+.jett{
+    top: 280px;
+    left: 1056px;
+}
+
+.sova{
+    top: 280px;
+    left: 1643px;
+}
+
+.sage{
+    top: 280px;
+    left: 2236px;
+}
+
+.UK{
+    top: 280px;
+    left: 543px;
+
+}
+
+.SK{
+    top: 280px;
+    left: 1135px;
+}
+
+.russia{
+    top:280px;
+    left: 1724px;
+}
+
+.china{
+    top:280px;
+    left: 2317px;
+}
+
+
+.block2{
+    position: relative;
+    top: -625px;
+    left: 95px;
+    display: flex;
+}
+
+.block2 div{
+    flex-basis: 724px;
+    height: 248px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-top-left-radius:10px ;
+
+}
+
+.block2 > div{
+    margin-right: 80px;
+}
+
+.block2 img{
+    position: absolute;
+}
+
+.basic{
+    top:31px;
+    left:58px;
+}
+
+.signature{
+    top:31px;
+    left:858px;
+}
+
+.ultimate{
+    top:31px;
+    left:1660px;
+}
+
+.orb{
+    top:104px;
+    left:58px;
+}
+
+.orb2{
+    top:104px;
+    left:858px;
+}
+
+.res{
+    top:104px;
+    left:1660px;
+
+}
+
+p{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F2326;
+}
+
+.block2-1 p{
+    top:161px;
+    left:58px;
+}
+
+.block2-2 p{
+    top:161px;
+    left: 858px;
+}
+
+.block2-3 p{
+    top:161px;
+    left:1660px;
+}
+
+
+
+
