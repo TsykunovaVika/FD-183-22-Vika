@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    display: flex;
+ }
+.start{
+    background-color: #ADD8E6; 
+    font-size: 30px;
+    padding: 20px; 
+    font-variant: normal;
+    text-align: center;
+    color: #0000FF;
+   
+}
+.menu{
+    
+    vertical-align: top;
+    flex-basis: 300px;
+    background-color: #f0e68c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+img{
+    width: 300px;
+    margin-right: 15px;
+    float: left;
+}
+h2{
+    text-align: center;
+    font-variant: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.content{
+    background: url(ball.png) right top repeat-y;
+    background-size: 60px;
+    margin-left: 15px;
+ 
+
+}
