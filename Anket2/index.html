@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anketa1</title>
-<script>
+    <title>Document</title>
+    <script></script>
+</head>
+<body>
+    <script>
         var name = prompt('Введите Ваше имя');
         var lastname = prompt('Введите Вашy фамилию');
         var patronymic = prompt('Введите Ваше отчество');
         var age = prompt ('Введите Ваш возраст');
         age = Number(age);
-        var gender = confirm('Ваш пол мужской?') ? 'мужской' : 'женский';
-        var pension = ((gender == true && age > 63) || (gender == false && age > 58))?"да":"нет";
+        var gender 
+        
+        if (gender == true) {
+        gender = "мужской";
+      } else {
+        gender = "женский";
+      }
+        var pension 
+        
+        if (gender == true && age > 63) {
+        pension = "да";
+      } else {
+        if (gender == false && age > 58) {
+          pension = "да";
+        } else {
+        pension = "нет";
+        }
+      }
 
 alert(`Ваше ФИО: ${lastname} ${name} ${patronymic}\n
 Ваш возраст в годах: ${age}\n
@@ -23,8 +42,5 @@ alert(`Ваше ФИО: ${lastname} ${name} ${patronymic}\n
 
 
 </script>
-
-<body>
-    
 </body>
 </html>
