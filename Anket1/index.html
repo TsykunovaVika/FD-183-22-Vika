@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa1</title>
+<script>
+        var name = prompt('Введите Ваше имя');
+        var lastname = prompt('Введите Вашy фамилию');
+        var patronymic = prompt('Введите Ваше отчество');
+        var age = prompt ('Введите Ваш возраст');
+        age = Number(age);
+        var gender = confirm('Ваш пол мужской?') ? 'мужской' : 'женский';
+        
+        var pension
+        if ( ((gender == 'мужской') && (age >= 60)) || ((gender == 'женский') && (age >= 55)) ){ pension = "да"; } 
+        else { pension = "нет"; } 
+
+
+
+
+alert(`Ваше ФИО: ${lastname} ${name} ${patronymic}\n
+Ваш возраст в годах: ${age}\n
+Ваш возраст в днях:  ${age * 365}\n 
+Через 5 лет вам будет: ${age + 5}\n
+Ваш пол: ${gender}\n
+Вы на пенсии: ${pension}`)
+
+
+</script>
+
+<body>
+    
+</body>
+</html>
