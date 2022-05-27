@@ -1,0 +1,37 @@
+@media all and (max-width:620px){
+    .start{
+        display: none;
+    }
+    .content{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'content'
+        'menu';
+        grid-column-gap: 10px;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .menu{
+        background: none;
+        grid-area: menu;
+         }
+     .menu ul li{
+        display: inline;
+         
+    }
+    .content{
+        background: none;
+        grid-area: content;
+        }
+        h3{
+            padding: 0px;
+            margin: 0px;
+        }
+        .menu ul{
+            padding-bottom: 0px;
+             padding-left: 0px;
+            
+         }
+    
