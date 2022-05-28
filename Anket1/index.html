@@ -12,7 +12,7 @@
         var age = prompt ('Введите Ваш возраст');
         age = Number(age);
         var gender = confirm('Ваш пол мужской?') ? 'мужской' : 'женский';
-        var pension = ((gender == true && age > 63) || (gender == false && age > 58))?"да":"нет";
+        var pension = ((gender && age > 63) || (gender && age > 58))?"да":"нет";
 
 alert(`Ваше ФИО: ${lastname} ${name} ${patronymic}\n
 Ваш возраст в годах: ${age}\n
