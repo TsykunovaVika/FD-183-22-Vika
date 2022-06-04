@@ -1,15 +1,14 @@
-@media all and (max-width:620px){
+@media all and (max-width:780px){
     .start{
         display: none;
     }
-    .content{
+    .container{
         grid-template-columns: 1fr;
         grid-template-areas:
         'content'
         'menu';
         grid-column-gap: 10px;
         }
-    }
     img{
         width: 100%;
     }
@@ -34,4 +33,4 @@
              padding-left: 0px;
             
          }
-    
+    }
